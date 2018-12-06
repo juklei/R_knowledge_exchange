@@ -13,8 +13,25 @@ rm(list = ls())
 if(!require(dplyr)){install.packages("dplyr")}
 require("dplyr")
 
+## 2. Define or source functions used in this script ---------------------------
+
+source("scripts/....")
+
+fun <- function(x){summary(lm(x[, 1] ~ x[, 2]))}
+
+## 3. Load and explore data ----------------------------------------------------
+
+dir("data")
+mydata <- read.csv("data/mydata.csv")
+head(mydata)
+
+## 4. Do things ----------------------------------------------------------------
+
+lm_out <- fun(x = mydata)
+
+## Export:
 
 dir.create("results")
-capture.output(summary(lm_out)) %>% write(., "results/lm_out.txt")
+capture.output(lm_out) %>% write(., "results/lm_out.txt")
 
 ## -------------------------------END-------------------------------------------
