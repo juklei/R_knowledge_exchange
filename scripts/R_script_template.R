@@ -4,7 +4,7 @@
 ## First edit: 
 ## Last edit: 
 ##
-## Author: Julian Klein
+## Author: Your Name
 
 ## 1. Clear environment and load libraries -------------------------------------
 
