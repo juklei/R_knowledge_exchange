@@ -6,6 +6,10 @@
 ##
 ## Author: Your Name
 
+
+### Kate made a change 
+
+
 ## 1. Clear environment and load libraries -------------------------------------
 
 rm(list = ls())
