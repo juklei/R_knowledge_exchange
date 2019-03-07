@@ -15,7 +15,6 @@
 rm(list = ls())
 
 if(!require(dplyr)){install.packages("dplyr")}
-require("dplyr")
 
 ## 2. Define or source functions used in this script ---------------------------
 
@@ -28,6 +27,9 @@ fun <- function(x){summary(lm(x[, 1] ~ x[, 2]))}
 dir("data")
 mydata <- read.csv("data/mydata.csv")
 head(mydata)
+
+## Create dummy data set:
+mydata <- expand.grid(tree = c(20, 30, 40, 10), lichen = c(1, 3, 4, 12))
 
 ## 4. Do things ----------------------------------------------------------------
 
