@@ -10,12 +10,9 @@
 
 rm(list = ls())
 
-if(!require(dplyr)){install.packages("dplyr")}
-require("dplyr")
+if(!require(jörg)){install.packages("jörg")}
 
 ## 2. Define or source functions used in this script ---------------------------
-
-## What a snowy day
 
 source("scripts/....")
 
