@@ -10,7 +10,8 @@
 
 rm(list = ls())
 
-if(!require(jörg)){install.packages("jörg")}
+if(!require(dplyr)){install.packages("dplyr")}
+require("dplyr")
 
 ## 2. Define or source functions used in this script ---------------------------
 
