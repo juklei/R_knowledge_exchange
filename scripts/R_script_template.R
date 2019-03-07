@@ -15,6 +15,8 @@ require("dplyr")
 
 ## 2. Define or source functions used in this script ---------------------------
 
+## What a snowy day
+
 source("scripts/....")
 
 fun <- function(x){summary(lm(x[, 1] ~ x[, 2]))}
