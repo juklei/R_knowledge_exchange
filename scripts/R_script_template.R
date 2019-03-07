@@ -7,7 +7,7 @@
 ## Author: Your Name
 
 
-### Kate made a change 
+### Kate made a change, =)
 
 
 ## 1. Clear environment and load libraries -------------------------------------
