@@ -66,7 +66,7 @@ barplot(insects$frequency, names.arg = insects$insect)
 
 Then we write about it:
 
-It seems that 7people like flea beetles best.
+It seems that 7 people like flea beetles best.
 
 ### Equations
 

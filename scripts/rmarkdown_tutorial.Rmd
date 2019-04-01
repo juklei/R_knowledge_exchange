@@ -70,7 +70,7 @@ barplot(insects$frequency, names.arg = insects$insect)
 
 Then we write about it:
 
-It seems that `r insects[which(insects$insect == "flea beetle"), "frequency"]`people like flea beetles best.
+It seems that `r insects[which(insects$insect == "flea beetle"), "frequency"]` people like flea beetles best.
 
 
 ### Equations
